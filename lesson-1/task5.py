@@ -7,5 +7,7 @@ if total_profit > 0:
     employers = int(input("Введите количество сотрудников: "))
     profit = total_profit / employers
     print(f"Прибыль в расчете на одного сотрудника: {profit}")
+elif total_profit == 0:
+    print("Ваше предприятие не имеет прибыли")
 else:
     print("Ваше предприятие убыточное")
